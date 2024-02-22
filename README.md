@@ -1,4 +1,4 @@
-## [Veja o site do projeto clicando aqui, ou clique na imagem](https://link-rede-social.vercel.app/)
+## [Veja o site do projeto clicando aqui, ou clique na imagem](https://faq-accordion-black.vercel.app/)
 
 ## Video do projeto
 https://github.com/DanielKremes/faq_accordion/assets/145404663/17bc506f-7080-4b1c-8816-c9902aa8892e
