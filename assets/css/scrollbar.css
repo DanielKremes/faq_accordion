@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+    width: 0.8rem;               /* width of the entire scrollbar */
+  }
+  
+::-webkit-scrollbar-track {
+    background:var(--color-2);
+  }
+  ::-webkit-scrollbar-thumb {  
+   background: linear-gradient(#642bff,#831876);
+   
+  }

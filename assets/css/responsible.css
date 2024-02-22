@@ -1,0 +1,77 @@
+@media screen and (max-width: 768px) {
+  :root {
+    --cor-0: #000;
+    --cor-1: #fff;
+    --cor-2: #8cb9bd;
+    --font-size-button: 1.2rem;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  .container {
+    min-height: 100vh;
+  }
+
+  .header,
+  .footer {
+    background-color: var(--cor-0);
+    color: var(--cor-1);
+    background-image: url(/assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .content section button {
+    width: 100%;
+    background-color: var(--cor-2);
+    font-size: var(--font-size-button);
+    color: var(--cor-0);
+  }
+
+  .accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .front_end_mentor_link {
+    text-decoration: none;
+    color: var(--cor-2);
+    font-size: var(--font-size-button);
+    text-align: center;
+  }
+
+  .pannel {
+    display: none;
+  }
+
+  .pannel p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .pannel p:hover {
+    font-weight: bold;
+  }
+
+  .icon_minus {
+    display: none;
+  }
+}
